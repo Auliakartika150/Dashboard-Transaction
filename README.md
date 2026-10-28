@@ -37,56 +37,34 @@ Nilai uang hanya dihitung dari transaksi berstatus **Success**.
 
 ## Temuan Utama
 
-### 1. Penjualan stabil sejak pertengahan 2018
+### 1. Tren penjualan dari bulan ke bulan
 
-- **Fakta:** Puncak penjualan bulanan pada Maret 2019 (Rp 69,39 juta). Pada akhir 2017 hingga awal 2018 nilainya jauh lebih rendah.
-- **Interpretasi (hipotesis):** Bisnis melewati fase pertumbuhan awal lalu mencapai level yang relatif stabil. Tidak terlihat tren naik yang jelas dalam beberapa tahun terakhir.
+- **Fakta:** Penjualan bulanan mencapai nilai tertinggi pada Maret 2019, dengan NMV sebesar **Rp 69,39 juta**. Pada akhir 2017 hingga awal 2018, nilai penjualan tercatat jauh lebih rendah dibandingkan periode puncaknya.
+- **Analisis:** Data menunjukkan bahwa penjualan mengalami peningkatan dari periode awal hingga mencapai puncak pada Maret 2019. Namun, untuk memastikan apakah penjualan selanjutnya stabil atau mengalami penurunan, diperlukan perbandingan nilai penjualan pada bulan-bulan setelah periode tersebut.
+- **Kesimpulan:** Maret 2019 merupakan bulan dengan NMV tertinggi dalam periode pengamatan berdasarkan hasil analisis yang tersedia.
 
-### 2. Credit Card dan Gopay menyumbang lebih dari separuh penjualan, tanpa metode yang bermasalah
+### 2. Kontribusi dan tingkat keberhasilan metode pembayaran
 
-- **Fakta:** Urutan NMV dari terbesar: Credit Card, Gopay, OVO, Debit Card, LinkAja. Tingkat keberhasilan semua metode hampir sama (sekitar 94–96%).
-- **Interpretasi (hipotesis):** Kegagalan sekitar 5% tersebar merata, sehingga lebih mungkin disebabkan faktor umum.
-- **Saran:** Jaga kestabilan Credit Card dan Gopay karena menopang lebih dari separuh penjualan. Selidiki alasan kegagalan jika datanya tersedia.
+- **Fakta:** Credit Card memberikan kontribusi NMV terbesar, diikuti oleh Gopay, OVO, Debit Card, dan LinkAja. Tingkat keberhasilan transaksi pada seluruh metode pembayaran relatif serupa, yaitu sekitar **94–96%**.
+- **Analisis:** Credit Card dan Gopay merupakan dua metode pembayaran dengan kontribusi penjualan terbesar. Sementara itu, perbedaan tingkat keberhasilan antarmetode pembayaran relatif kecil sehingga belum menunjukkan adanya satu metode yang memiliki tingkat kegagalan jauh lebih tinggi dibandingkan metode lainnya.
+- **Kesimpulan:** Credit Card menjadi metode pembayaran dengan kontribusi penjualan terbesar, sedangkan tingkat keberhasilan seluruh metode pembayaran relatif sebanding. Pemeriksaan lebih lanjut terhadap penyebab kegagalan diperlukan untuk mengetahui faktor yang memengaruhinya.
 
-### 3. Promo dipakai hampir separuh booking, tetapi tidak menaikkan nilai pembelian
+### 3. Hubungan penggunaan promo dengan nilai pembelian
 
-| Jenis | Booking berhasil | NMV | Total potongan | Rata-rata NMV per booking |
-|---|---:|---:|---:|---:|
-| Non-Promo | 4.074 | Rp 1.506.799.147 | Rp 0 | Rp 369.857 |
-| Promo | 3.058 | Rp 1.099.910.234 | Rp 16.270.918 | Rp 359.683 |
+- **Fakta:** Sebanyak **3.058 booking berhasil** menggunakan promo, sedangkan **4.074 booking berhasil** tidak menggunakan promo. Rata-rata NMV per booking pada transaksi promo sebesar **Rp 359.683**, lebih rendah dibandingkan transaksi non-promo sebesar **Rp 369.857**. Selisihnya sekitar **2,8%**.
+- **Analisis:** Berdasarkan data tersebut, transaksi yang menggunakan promo memiliki rata-rata NMV per booking lebih rendah daripada transaksi tanpa promo. Dengan demikian, data yang tersedia belum menunjukkan bahwa penggunaan promo berkaitan dengan nilai pembelian rata-rata yang lebih tinggi. Namun, perbandingan ini belum membuktikan bahwa promo menyebabkan penurunan nilai pembelian karena karakteristik pelanggan dan jenis transaksi dapat berbeda.
+- **Fakta tambahan:** Lima kode promo yang paling banyak digunakan adalah AZ2022, BUYMORE, WEEKENDSERU, XX2022, dan LIBURDONG. Kelimanya mencakup **2.654 dari 3.058 booking promo**, atau sekitar **87%**.
+- **Kesimpulan:** Penggunaan promo cukup besar, tetapi rata-rata NMV per booking promo lebih rendah dibandingkan transaksi non-promo. Penggunaan kode promo juga terkonsentrasi pada lima kode utama.
 
-- **Fakta:** 42,9% booking berhasil memakai promo. Rata-rata NMV per booking promo sekitar 2,8% lebih rendah daripada non-promo. Total potongan hanya sekitar 1,5% dari nilai kotor transaksi promo, atau sekitar Rp 5.300 per booking.
-- **Interpretasi (hipotesis):** Potongan relatif kecil dan tidak mendorong pelanggan berbelanja lebih besar.
+### 4. Karakteristik, pola pembelian, dan persebaran pelanggan aktif
 
-### 4. Lima kode promo mendominasi penggunaan
-
-| Kode promo | Booking berhasil | Total potongan |
-|---|---:|---:|
-| AZ2022 | 802 | Rp 3.971.125 |
-| BUYMORE | 611 | Rp 3.008.158 |
-| WEEKENDSERU | 564 | Rp 2.794.398 |
-| XX2022 | 455 | Rp 2.295.601 |
-| LIBURDONG | 222 | Rp 1.150.868 |
-
-- **Fakta:** Kelima kode ini mencakup 2.654 dari 3.058 booking promo (sekitar 87%). Potongan per penggunaan hampir sama, sekitar Rp 5.000.
-
-### 5. Basis pelanggan kecil, berulang, dan terkonsentrasi
-
-- **Fakta:**
-  - 259 pelanggan aktif menghasilkan 7.132 booking, rata-rata sekitar 27 booking per pelanggan.
-  - 10 pelanggan teratas menyumbang Rp 564,3 juta, sekitar 21% dari total pembayaran. Enam dari sepuluhnya berlokasi di luar Pulau Jawa.
-  - Pelanggan aktif didominasi perempuan (71%) dan usia 15–34 tahun (lebih dari 80%).
-  - Jakarta Raya adalah lokasi dengan pelanggan terbanyak, diikuti Jawa Barat dan Jawa Tengah.
-- **Interpretasi (hipotesis):** Bisnis sangat bergantung pada pembeli berulang, sehingga kehilangan beberapa pelanggan teratas berdampak besar pada penjualan.
-- **Saran:** Buat program retensi untuk pelanggan teratas, cek apakah mereka pembeli perorangan atau reseller, dan telaah potensi pasar di luar Jawa.
-
-## Catatan dan Keterbatasan
-
-- Analisis ini deskriptif. Kolom "Interpretasi" adalah hipotesis yang perlu diuji dengan data tambahan.
-- Bulan pertama (Juli 2017) dan bulan terakhir (Juli 2022) perlu ditafsirkan hati-hati karena bisa jadi tidak mencakup satu bulan penuh.
-- Usia pelanggan dihitung pada tanggal transaksi terakhir dalam data (31 Juli 2022).
-- Profil pelanggan hanya mencakup pelanggan dengan transaksi berhasil.
+- **Fakta:** Sebanyak **259 pelanggan aktif** menghasilkan **7.132 booking berhasil**, atau rata-rata sekitar **27,5 booking per pelanggan**. Sepuluh pelanggan dengan kontribusi tertinggi menyumbang sekitar **21% dari total pembayaran**. Pelanggan aktif didominasi perempuan sebesar **71%** dan kelompok usia 15–34 tahun sebesar lebih dari **80%**. Jakarta Raya menjadi lokasi dengan jumlah pelanggan terbanyak, diikuti Jawa Barat dan Jawa Tengah.
+- **Analisis:** Rata-rata booking per pelanggan menunjukkan bahwa transaksi berulang berperan penting dalam aktivitas penjualan. Selain itu, kontribusi sepuluh pelanggan teratas yang mencapai sekitar 21% menunjukkan adanya konsentrasi pembayaran pada kelompok pelanggan tertentu. Profil demografis dan persebaran lokasi juga memberikan gambaran mengenai karakteristik pelanggan aktif yang tercatat dalam data.
+- **Kesimpulan:** Aktivitas transaksi didukung oleh pelanggan yang melakukan pembelian berulang. Pelanggan aktif didominasi perempuan dan kelompok usia 15–34 tahun, sedangkan Jakarta Raya menjadi lokasi dengan jumlah pelanggan terbanyak.
+- **Saran:** Pertimbangkan program retensi untuk pelanggan dengan frekuensi atau kontribusi pembelian tinggi. Profil usia, jenis kelamin, dan lokasi pelanggan juga dapat digunakan sebagai bahan evaluasi strategi pemasaran, dengan tetap mempertimbangkan keterbatasan data.
 
 ## Teknologi
-
 Python, Pandas, NumPy, Plotly, Streamlit
+
+## Dashboard
+**Link Dashboard:https://dashboard-transaction-vdtfpjd8fhyf7gvjzswwn2.streamlit.app/**
